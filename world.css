@@ -1,6 +1,9 @@
 /* Add your own styles */
 
-
+/* Body Editing */
+body{
+    background-color: grey;
+}
 /* Header Editing */
 
 header{
@@ -9,7 +12,7 @@ header{
     background-color: grey;
 }
 header h1{
-    color: white;
+    color:black;
 }
 header .imagetest{
     margin: 10px;
@@ -53,4 +56,11 @@ th{
 td{
     padding: 5px;
     border: 1px solid black;
+}
+tr:nth-child(even){
+    color:black;
+}
+tr:nth-child(odd){
+    background-color:black;
+    color:white;
 }
